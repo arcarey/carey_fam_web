@@ -5,11 +5,11 @@ let allowance = 0
     $('#choreCheckList :checkbox').change(function() {
         if (this.checked) {
             allowance += .5;
-            console.log(`Mal's allowance is \$${allowance}`);
+            console.log(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`); //this parseFloat stuff is to display the allowance value in a money format
             // the checkbox is now checked 
         } else {
             allowance -= .5;
-            console.log(`Mal's allowance is \$${allowance}`);
+            console.log(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`);
 
             // the checkbox is now no longer checked and the allowance is removed
         }

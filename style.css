@@ -1,8 +1,25 @@
 body {
-    background-color: linen;
-    color:black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color:rgb(206, 203, 203);
+    font-family: 'Arvo', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+
+.familyHeadersFlexContainer{
+    display: flex;
+    flex-flow: row;
+    justify-items: center;
+    padding: auto;
+    margin: auto;
+
+
+}
+
+.famTile{
+    border: 3px;
+    border-color: azure;
+}
+
 #choreCheckList{
-    background-color: blanchedalmond;
+    background-color: rgb(74, 73, 66);
 }

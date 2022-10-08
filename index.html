@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Carey Family!</title>
     <link rel="stylesheet" href="style.css">    
-    <script src="script.js"></script>
     <script src="jquery.js "></script>
+    <script src="script.js"></script>
+
 </head>
 <body>
     <Header>
         <h1>The Carey Family!</h1>
-        <UL>
-            <li>Shawna</li>
-            <li>Andrew</li>
-            <li>Malachi</li>
-            <li>Mavis</li>
-        </UL>
+        <div class="familyHeadersFlexContainer">
+            <div class="famTile">Shawna</div>
+            <div class="famTile">Andrew</div>
+            <div class="famTile">Malachi</div>
+            <div class="famTile">Mavis</div>
+        </div>
     </Header>    
     <div id="choreCheckList"> <!--Each of these buttons will be associated with a $$ amount and will toggle then add money to a total. It will reset each day and generate a weekly allowance for the kids-->
-        <li>Make Bed</li>
-        <li>Brush Teeth Morning</li>
-        <li>Brush Teeth Evening</li>
-        <li>Bus Dishes</li>
-        <li>Clean Room</li>
-        <li>Vaccuum Room Counter</li> <!-- find a way to toggle this count up and add $$ for each room vaccuumed  -->
+        <li><input type="checkbox" name="item_0" id="item_0"><label for="item_0">Make Bed</label><span class="input"></span></li>
+        <li><input type="checkbox" name="item_0" id="item_1"><label for="item_1">Brush Teeth Morning</label><span class="input"></span></li>
+        <li><input type="checkbox" name="item_0" id="item_2"><label for="item_2">Brush Teeth Evening</label><span class="input"></span></li>
+        <li><input type="checkbox" name="item_0" id="item_3"><label for="item_3">Bush Dishes</label><span class="input"></span></li>
+        <li><input type="checkbox" name="item_0" id="item_4"><label for="item_4">Clean Room</label><span class="input"></span></li>
+        <li><input type="checkbox" name="item_0" id="item_5"><label for="item_5">Vaccuum Room</label><span class="input"></span></li> <!-- find a way to toggle this count up and add $$ for each room vaccuumed  -->
     </div>
 </body>
 </html>
+
 

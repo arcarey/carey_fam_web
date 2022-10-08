@@ -36,5 +36,7 @@ body {
 
 #choreCheckList{
     background-color: rgb(74, 73, 66);
+    padding: 10px;
     margin: auto;
+    border-radius: 4px;
 }

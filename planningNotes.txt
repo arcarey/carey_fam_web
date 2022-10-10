@@ -1,1 +1,9 @@
-Make a one page daily chores checklist
+Punch list:
+fix flexbox layout
+impliment person selector
+    does this change the checkboxes?
+    do the adults get checks for hitting weights/workouts?
+    do adults get different rewards?
+Impliment Weekly time reset
+Impliment database storage
+write program for reporting

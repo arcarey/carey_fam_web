@@ -6,14 +6,18 @@ let allowance = 0
         if (this.checked) {
             allowance += .5;
             console.log(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`); //this parseFloat stuff is to display the allowance value in a money format
+            $('#totalAllowance').text(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`)
+
             // the checkbox is now checked 
         } else {
             allowance -= .5;
             console.log(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`);
+            $('#totalAllowance').text(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`)
 
             // the checkbox is now no longer checked and the allowance is removed
         }
     });
+    $('#totalAllowance').text(`Allowance total: ${allowance}`)
 });
     
     

@@ -17,7 +17,7 @@ let allowance = 0
             // the checkbox is now no longer checked and the allowance is removed
         }
     });
-    $('#totalAllowance').text(`Allowance total: ${allowance}`)
+    $('#totalAllowance').text(`Mal's allowance is \$${parseFloat(allowance).toFixed(2)}`)
 });
     
     

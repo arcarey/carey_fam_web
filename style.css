@@ -1,7 +1,7 @@
 header{
     display: flex;
     margin: auto;
-    padding-left: 10px;
+    padding-left: 5%;
 }
 
 body {
@@ -15,13 +15,18 @@ body {
     display: flex;
     margin: auto;
 }
+.sideContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 
 .familyHeadersFlexContainer{
     display: flex;
     flex-flow:column;
     justify-items: left;
-    padding-left:4%;
-    margin-left: 4%;
+    padding-left:5px;
+    margin-left: 5px;
 
 
 }
@@ -39,4 +44,9 @@ body {
     padding: 10px;
     margin: auto;
     border-radius: 4px;
+}
+#totalAllowance{
+    padding: 10px;
+    margin: auto;
+
 }
